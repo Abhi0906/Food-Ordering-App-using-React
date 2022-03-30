@@ -1,0 +1,55 @@
+.summary {
+    text-align: center;
+    max-width: 45rem;
+    width: 90%;
+    margin: auto;
+    margin-top: -10rem;
+    position: relative;
+    background-color: #383838;
+    color: white;
+    border-radius: 14px;
+    padding: 1rem;
+    box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+  }
+  
+  .summary h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    animation: summary-appear 2s infinite;
+  }
+
+  @keyframes summary-appear {
+    0% {
+      opacity: 1;
+    }
+    10% {
+      opacity: 0.9;
+    }
+    20% {
+      opacity: 0.8;
+    }
+    30% {
+      opacity: 0.7;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    60% {
+      opacity: 0.6;
+    }
+    70% {
+      opacity: 0.7;
+    }
+    80% {
+      opacity: 0.8;
+    }
+    90% {
+      opacity: 0.9;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
